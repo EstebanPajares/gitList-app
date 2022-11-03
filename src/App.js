@@ -8,11 +8,10 @@ import Search from './components/search';
 function App() {
   return (
     <Layout>
-      <h1>Starting GitList</h1>
       <Profile/>
       <Filters/>
-      <RepoList/>
       <Search/>
+      <RepoList/>
     </Layout>
   );
 }
