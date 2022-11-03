@@ -1,23 +1,18 @@
 import './App.css';
 import Layout from './components/layout';
+import Profile from './components/profile';
+import Filters from './components/filters'
+import RepoList from './components/repo-list';
+import Search from './components/search';
 
 function App() {
   return (
     <Layout>
-      {/* Creando los componentes */}
       <h1>Starting GitList</h1>
-      <div>
-        profile
-      </div>
-      <div>
-        filters
-      </div>
-      <div>
-        repoList
-      </div>
-      <div>
-        search
-      </div>
+      <Profile/>
+      <Filters/>
+      <RepoList/>
+      <Search/>
     </Layout>
   );
 }
