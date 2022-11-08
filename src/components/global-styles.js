@@ -28,9 +28,8 @@ const GlobalStylesStyled = createGlobalStyle`
         border: 10px solid green;
         background: var(--bg);
         color: var(--grey);
+        font: var(--body1-regular);
     }
 `
-
-
 
 export default GlobalStylesStyled
