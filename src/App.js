@@ -1,4 +1,3 @@
-import './App.css';
 import Layout from './components/layout';
 import Profile from './components/profile';
 import Filters from './components/filters'
@@ -10,8 +9,8 @@ function App() {
     <Layout>
       <Profile/>
       <Filters/>
-      <Search/>
       <RepoList/>
+      <Search/>
     </Layout>
   );
 }
