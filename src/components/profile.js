@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import props from './profile-data'
 
 const ProfileStyled = styled.div`
     /* background-color: blue; */
@@ -47,27 +48,28 @@ const ProfileStyled = styled.div`
 `
 
 function Profile() {
+    const {twitter_username, blog, name, login, avatar_url, bio, followers, following, location} = props
     return (
         <ProfileStyled>
-            <img className='avatar' src="" width="278" height="278" alt="Avatar de Esteban" title="Perfil de Esteban" />
-            <p className="name">Esteban</p>
-            <p className="userName">EstebanPajares</p>
+            <img className='avatar' src={avatar_url} width="278" height="278" alt="Avatar" title="Perfil de Esteban" />
+            <p className="name">{name}</p>
+            <p className="userName">{login}</p>
             <div className='buttons'>
                 <button>Follow</button>
                 <button>Sponsors</button>
             </div>
-            <p className="bio info">Frontend Developer</p>
+            <p className="bio info">{bio}</p>
             <p className="followers info">
-                . 10 <span>followers</span>  <span>.</span> 15 <span>following</span>
+                . {followers} <span>followers</span>  <span>.</span> {following} <span>following</span>
             </p>
-            <p className="stars info">
+            {/* <p className="stars info">
                 . 85
-            </p>
+            </p> */}
             <p className="location info">
-                Lima - Perú
+                {location}
             </p>
-            <a className='info' href="https://github.com/EstebanPajares" target="_blank" rel="noreferrer">https://github.com/EstebanPajares</a>
-            <a className='info' href="https://twitter.com/Esteban_Pajares" target="_blank" rel="noreferrer">@EstebanPajares</a>
+            <a className='info' href={blog} target="_blank" rel="noreferrer">{blog}</a>
+            <a className='info' href={`https://twitter.com/${twitter_username}`} target="_blank" rel="noreferrer">@{twitter_username}</a>
 
         </ProfileStyled>
     )
