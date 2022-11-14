@@ -6,7 +6,7 @@ const GlobalStylesStyled = createGlobalStyle`
         --white: #fffffe;
         --black: #141414;
         --bg: #0d1117;
-        --button: #22262c;
+        --buttonBG: #22262c;
         --grey: #8b949e;
         --grey-1: #c5ced7;
         --grey-2: #3f4954;
