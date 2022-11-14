@@ -2,19 +2,19 @@ import styled from 'styled-components'
 import { isValidElement } from 'react'
 
 const ButtonStyled = styled.button`
-    background: var(--buttonBG)
-    border: 1px solid var(--grey);
     border-radius: .5rem;
+    paddin-block: .25rem;
+    background: var(--buttonBG);
+    color: var(--white);
+    border: 1px solid var(--grey);
     min-inline-size: 8.4375rem;
     display: inline-flex;
     gap:.5rem;
     align-items:center;
     justify-content:center;
-    paddin-block: .25rem;
     cursor:pointer;
     text-decoration:none !important;
     font: var(--button);
-    color: var(--white);
     &:hover{
         background: var(--white);
         color: var(--button);
