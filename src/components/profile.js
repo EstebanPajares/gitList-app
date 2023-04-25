@@ -66,7 +66,7 @@ function Profile() {
                     />
                 <Button
                     text = 'Sponsor'
-                    icon = {<i>🎅</i>}
+                    icon = {<i>🧡</i>}
                 />
             </div>
             <p className="bio info">{bio}</p>
