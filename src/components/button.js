@@ -3,7 +3,7 @@ import { isValidElement } from 'react'
 
 const ButtonStyled = styled.button`
     border-radius: .5rem;
-    paddin-block: .25rem;
+    padding-block: .25rem;
     background: var(--buttonBG);
     color: var(--white);
     border: 1px solid var(--grey);
@@ -17,7 +17,7 @@ const ButtonStyled = styled.button`
     font: var(--button);
     &:hover{
         background: var(--white);
-        color: var(--button);
+        color: var(--buttonBG);
     }
 
 `
