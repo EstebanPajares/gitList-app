@@ -17,6 +17,7 @@ function Filters() {
             <Icon name = 'branch'/>
             <Icon name = 'check'/>
             <Icon name = 'home' />
+            <Icon name = 'cancel' />
         </FiltersStyled>
     )
 }

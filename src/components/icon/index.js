@@ -2,6 +2,7 @@ import Heart from './heart'
 import Branch from './branch'
 import Check from './check'
 import Home from './home'
+import Cancel from './cancel'
 
 
 function Index( { name, ...props }) {
@@ -17,6 +18,9 @@ function Index( { name, ...props }) {
         }
         case 'home':{
             return <Home {...props}/>
+        }
+        case 'cancel':{
+            return <Cancel {...props}/>
         }
         default:{
             return null
