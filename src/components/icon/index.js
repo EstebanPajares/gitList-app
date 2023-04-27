@@ -1,16 +1,15 @@
-import React from 'react'
-import styled from 'styled-components'
+import Heart from './heart'
 
-const IndexStyled = styled.div`
 
-`
-
-function Index() {
-    return (
-        <IndexStyled>
-            Index Icon
-        </IndexStyled>
-    )
+function Index( { name, ...props }) {
+    switch (name){
+        case 'heart':{
+            return <Heart {...props}/>
+        }
+        default:{
+            return null
+        }
+    }
 }
 
 export default Index
