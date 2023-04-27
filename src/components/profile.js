@@ -67,6 +67,11 @@ function Profile() {
                     text = 'Follow'
                     link = '#'
                     className = 'custtom'
+                    icon = {<Icon
+                        name = 'branch'
+                        size = {24}
+                        color = 'blue'
+                    />}
                     />
                 <Button
                     text = 'Sponsor'
