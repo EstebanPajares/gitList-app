@@ -15,6 +15,7 @@ function Filters() {
             <h1>Filters Icon</h1>
             <Icon name = 'heart'/>
             <Icon name = 'branch'/>
+            <Icon name = 'check'/>
         </FiltersStyled>
     )
 }

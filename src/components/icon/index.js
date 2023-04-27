@@ -1,5 +1,6 @@
 import Heart from './heart'
 import Branch from './branch'
+import Check from './check'
 
 
 function Index( { name, ...props }) {
@@ -9,6 +10,9 @@ function Index( { name, ...props }) {
         }
         case 'branch':{
             return <Branch {...props}/>
+        }
+        case 'check':{
+            return <Check {...props}/>
         }
         default:{
             return null
