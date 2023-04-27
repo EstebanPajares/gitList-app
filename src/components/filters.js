@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
+
 const FiltersStyled = styled.div`
     grid-area: filters;
     background-color: yellow;
@@ -9,7 +10,9 @@ const FiltersStyled = styled.div`
 function Filters() {
     return (
         <FiltersStyled>
-            Filters
+            Filters Icon
+
+
         </FiltersStyled>
     )
 }

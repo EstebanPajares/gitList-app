@@ -16,4 +16,8 @@ function Index( { name, ...props }) {
     }
 }
 
+Index.defaultProps = {
+    size : 16,
+    color : 'white',
+}
 export default Index

@@ -69,16 +69,16 @@ function Profile() {
                     className = 'custtom'
                     icon = {<Icon
                         name = 'branch'
-                        size = {24}
-                        color = 'blue'
+                        /* size = {24}
+                        color = 'blue' */
                     />}
                     />
                 <Button
                     text = 'Sponsor'
                     icon = {<Icon
                         name = 'heart'
-                        size = {24}
-                        color = 'orange'
+                        /* size = {24}
+                        color = 'orange' */
                     />}
                 />
             </div>
