@@ -4,6 +4,7 @@ import Check from './check'
 import Home from './home'
 import Cancel from './cancel'
 import Book from './book'
+import Link from './link'
 
 
 function Index( { name, ...props }) {
@@ -25,6 +26,9 @@ function Index( { name, ...props }) {
         }
         case 'book':{
             return <Book {...props}/>
+        }
+        case 'link': {
+            return <Link {...props} />
         }
         default:{
             return null

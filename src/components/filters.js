@@ -19,6 +19,7 @@ function Filters() {
             <Icon name = 'home' />
             <Icon name = 'cancel' />
             <Icon name = 'book' />
+            <Icon name= 'link' />
         </FiltersStyled>
     )
 }
