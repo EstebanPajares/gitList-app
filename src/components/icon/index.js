@@ -5,6 +5,7 @@ import Home from './home'
 import Cancel from './cancel'
 import Book from './book'
 import Link from './link'
+import Location from './location'
 
 
 function Index( { name, ...props }) {
@@ -29,6 +30,9 @@ function Index( { name, ...props }) {
         }
         case 'link': {
             return <Link {...props} />
+        }
+        case 'location': {
+            return <Location {...props} />
         }
         default:{
             return null
