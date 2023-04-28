@@ -6,6 +6,7 @@ import Cancel from './cancel'
 import Book from './book'
 import Link from './link'
 import Location from './location'
+import Search from './search'
 
 
 function Index( { name, ...props }) {
@@ -33,6 +34,9 @@ function Index( { name, ...props }) {
         }
         case 'location': {
             return <Location {...props} />
+        }
+        case 'search': {
+            return <Search {...props} />
         }
         default:{
             return null

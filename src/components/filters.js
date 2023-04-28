@@ -21,6 +21,7 @@ function Filters() {
             <Icon name = 'book' />
             <Icon name = 'link' />
             <Icon name = 'location' />
+            <Icon name = 'search' />
         </FiltersStyled>
     )
 }
