@@ -3,6 +3,7 @@ import Branch from './branch'
 import Check from './check'
 import Home from './home'
 import Cancel from './cancel'
+import Book from './book'
 
 
 function Index( { name, ...props }) {
@@ -21,6 +22,9 @@ function Index( { name, ...props }) {
         }
         case 'cancel':{
             return <Cancel {...props}/>
+        }
+        case 'book':{
+            return <Book {...props}/>
         }
         default:{
             return null

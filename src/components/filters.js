@@ -18,6 +18,7 @@ function Filters() {
             <Icon name = 'check'/>
             <Icon name = 'home' />
             <Icon name = 'cancel' />
+            <Icon name = 'book' />
         </FiltersStyled>
     )
 }
