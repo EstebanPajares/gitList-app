@@ -7,6 +7,7 @@ import Book from './book'
 import Link from './link'
 import Location from './location'
 import Search from './search'
+import Star from './star'
 
 
 function Index( { name, ...props }) {
@@ -37,6 +38,9 @@ function Index( { name, ...props }) {
         }
         case 'search': {
             return <Search {...props} />
+        }
+        case 'star': {
+            return <Star {...props} />
         }
         default:{
             return null

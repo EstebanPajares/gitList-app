@@ -7,12 +7,13 @@ const FiltersStyled = styled.div`
     grid-area: filters;
     background-color: grey;
     color: green;
+
 `
 
 function Filters() {
     return (
         <FiltersStyled>
-            <h1>Filters Icon</h1>
+            <h1>Filter Icons</h1>
             <Icon name = 'heart'/>
             <Icon name = 'branch'/>
             <Icon name = 'check'/>
@@ -22,6 +23,7 @@ function Filters() {
             <Icon name = 'link' />
             <Icon name = 'location' />
             <Icon name = 'search' />
+            <Icon name = 'star' />
         </FiltersStyled>
     )
 }
