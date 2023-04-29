@@ -6,7 +6,7 @@ import Icon from './icon'
 const FiltersStyled = styled.div`
     grid-area: filters;
     background-color: grey;
-    color: green;
+    color: var(--white);
 
 `
 

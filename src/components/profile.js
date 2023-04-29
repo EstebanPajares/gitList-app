@@ -10,10 +10,6 @@ import Icon from './icon'
 const ProfileStyled = styled.div`
     /* background-color: blue; */
     grid-area: profile;
-    .custtom {
-        border: 1px solid green;
-    }
-
     .avatar{
         border-radius: 50%;
         border: 1px solid var(--grey-1);
@@ -66,19 +62,13 @@ function Profile() {
                 <Button
                     text = 'Follow'
                     link = '#'
-                    className = 'custtom'
-                    icon = {<Icon
-                        name = 'branch'
-                        /* size = {24}
-                        color = 'blue' */
-                    />}
-                    />
+                />
                 <Button
                     text = 'Sponsor'
                     icon = {<Icon
                         name = 'heart'
-                        /* size = {24}
-                        color = 'orange' */
+                        size = {24}
+                        color = 'var(--pink)'
                     />}
                 />
             </div>
