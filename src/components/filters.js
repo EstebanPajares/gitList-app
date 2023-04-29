@@ -24,6 +24,7 @@ function Filters() {
             <Icon name = 'location' />
             <Icon name = 'search' />
             <Icon name = 'star' />
+            <Icon name = 'twitter' />
         </FiltersStyled>
     )
 }

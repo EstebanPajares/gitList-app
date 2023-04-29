@@ -8,6 +8,7 @@ import Link from './link'
 import Location from './location'
 import Search from './search'
 import Star from './star'
+import Twitter from './twitter'
 
 
 function Index( { name, ...props }) {
@@ -41,6 +42,9 @@ function Index( { name, ...props }) {
         }
         case 'star': {
             return <Star {...props} />
+        }
+        case 'twitter': {
+            return <Twitter {...props} />
         }
         default:{
             return null
