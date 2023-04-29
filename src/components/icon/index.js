@@ -11,6 +11,7 @@ import Star from './star'
 import Twitter from './twitter'
 import User from './user'
 import Github from './github'
+import ArrowDown from './arrow-down'
 
 
 function Index( { name, ...props }) {
@@ -53,6 +54,9 @@ function Index( { name, ...props }) {
         }
         case 'github': {
             return <Github {...props} />
+        }
+        case 'arrow-down': {
+            return <ArrowDown {...props} />
         }
         default:{
             return null
