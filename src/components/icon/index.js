@@ -10,6 +10,7 @@ import Search from './search'
 import Star from './star'
 import Twitter from './twitter'
 import User from './user'
+import Github from './github'
 
 
 function Index( { name, ...props }) {
@@ -49,6 +50,9 @@ function Index( { name, ...props }) {
         }
         case 'user': {
             return <User {...props} />
+        }
+        case 'github': {
+            return <Github {...props} />
         }
         default:{
             return null
