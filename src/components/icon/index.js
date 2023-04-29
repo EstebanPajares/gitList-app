@@ -9,6 +9,7 @@ import Location from './location'
 import Search from './search'
 import Star from './star'
 import Twitter from './twitter'
+import User from './user'
 
 
 function Index( { name, ...props }) {
@@ -45,6 +46,9 @@ function Index( { name, ...props }) {
         }
         case 'twitter': {
             return <Twitter {...props} />
+        }
+        case 'user': {
+            return <User {...props} />
         }
         default:{
             return null
