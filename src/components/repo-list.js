@@ -4,7 +4,9 @@ import RepoItem from './repo-item'
 
 const RepoListStyled = styled.div`
     grid-area: repo-list;
-    background-color: skyblue;
+    background-color: black;
+    color: var(--white);
+
 `
 
 function RepoList({ repoList }) {
