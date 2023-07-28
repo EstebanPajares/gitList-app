@@ -62,6 +62,11 @@ function Profile() {
                 <Button
                     text = 'Follow'
                     link = '#'
+                    icon = {<Icon
+                        name = 'github'
+                        size = {24}
+                        color = 'var(--pink)'
+                    />}
                 />
                 <Button
                     text = 'Sponsor'
