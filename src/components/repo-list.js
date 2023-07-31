@@ -12,8 +12,8 @@ const RepoListStyled = styled.div`
 function RepoList({ repoList }) {
     return (
         <RepoListStyled>
-            {repoList.map((item)=>{
-                return <RepoItem {...item} key= {item.id}/>
+            {repoList.map((item)=>{ //itera todos los elementos del array
+                return <RepoItem {...item} key={item.id}/>
             })}
         </RepoListStyled>
     )

@@ -65,7 +65,7 @@ function Profile() {
                     icon = {<Icon
                         name = 'github'
                         size = {24}
-                        color = 'var(--pink)'
+                        /* color = 'var(--pink)' */
                     />}
                 />
                 <Button

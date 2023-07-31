@@ -9,5 +9,3 @@ function Book({ size, color}) {
 }
 
 export default Book
-
-
