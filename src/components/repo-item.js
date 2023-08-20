@@ -2,7 +2,7 @@
 import styled from 'styled-components'
 
 const RepoItemStyled = styled.div`
-border: 1px solid purple;
+border: 1px solid orange;
 margin: 10px;
 padding: 10px;
 

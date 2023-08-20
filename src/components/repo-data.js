@@ -112,7 +112,7 @@ export default [
     "node_id": "MDEwOlJlcG9zaXRvcnkzNTk0",
     "name": "acts_as_textiled",
     "full_name": "defunkt/acts_as_textiled",
-    "private": false,
+    "private": true,
     "owner": {
       "login": "defunkt",
       "id": 2,
@@ -317,7 +317,8 @@ export default [
     "topics": [
       'html',
       'CSS',
-      'JavaScript'
+      'JavaScript',
+      'React'
     ],
     "visibility": "public",
     "forks": 25,
